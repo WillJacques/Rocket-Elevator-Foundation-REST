@@ -9773,11 +9773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
+      "projectUniqueName": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
       "projectName": "REST_API",
-      "projectPath": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
+      "projectPath": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
       "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\obj\\",
+      "outputPath": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",

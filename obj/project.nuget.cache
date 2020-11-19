@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8e86MkVqKaNtauEv/S/jMI3K4UXF4FHEzTt5YghWm+X+kujtBemdVw2UKMjuCeOgOjhS51YmuXveT7/ry526ng==",
+  "dgSpecHash": "fNKISE1lYD6DvdEL2S/IWpJQxrbbwLtXUENjooGXMreERQu3D/D28npi74GHjtXXL2cswWNUH5X03/psLOHbvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
+  "projectFilePath": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willy\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\willy\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
