@@ -160,7 +160,6 @@ C:\Users\willy\Desktop\Nouveau dossier\REST_API\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\willy\Desktop\Nouveau dossier\REST_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\REST_API.exe
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\REST_API.deps.json
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\bin\Debug\netcoreapp3.1\REST_API.runtimeconfig.json
@@ -318,3 +317,4 @@ C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\obj\Debug\netcoreapp3.1\s
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\obj\Debug\netcoreapp3.1\REST_API.dll
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\obj\Debug\netcoreapp3.1\REST_API.pdb
 C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\obj\Debug\netcoreapp3.1\REST_API.genruntimeconfig.cache
+C:\Users\willy\Desktop\Rocket-Elevator-Foundation-REST\obj\Debug\netcoreapp3.1\scopedcss\bundle\REST_API.styles.css

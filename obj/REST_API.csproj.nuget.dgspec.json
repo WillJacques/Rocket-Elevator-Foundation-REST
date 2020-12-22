@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj": {}
+    "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj": {
+    "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
+        "projectUniqueName": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
         "projectName": "REST_API",
-        "projectPath": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
+        "projectPath": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\REST_API.csproj",
         "packagesPath": "C:\\Users\\willy\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\obj\\",
+        "outputPath": "C:\\Users\\willy\\Desktop\\Rocket-Elevator-Foundation-REST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "ExtCore.Data.EntityFramework.MySql": {
               "target": "Package",
@@ -103,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
