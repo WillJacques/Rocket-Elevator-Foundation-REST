@@ -21,8 +21,8 @@ namespace REST_API.Controllers
             _context = context;
         }
 
-
-        [HttpGet]
+        
+    [HttpGet]
         public async Task<ActionResult<IEnumerable<Elevator>>> Getelevators()
         {
             return await _context.elevators.ToListAsync();
@@ -101,6 +101,19 @@ namespace REST_API.Controllers
             return Content(status.ToString(), "application/json");
         }
 
+        [HttpGet("Spec/{id}")]
+        public async Task<ActionResult<Elevator>> GetElevatorSpec(long id)
+        {
+            var elevator = await _context.elevators.FindAsync(id);
+
+            if (elevator == null)
+            {
+                return NotFound();
+            }
+
+            return elevator;
+        }
+
         [HttpGet("forColumn/{id}")]
         public ActionResult<List<Elevator>> GetColumnElevator(long id)
         {
@@ -138,9 +151,7 @@ namespace REST_API.Controllers
             _context.SaveChanges();
 
             // Create a message to show the new status
-            var status = new JObject();
-            status["message"] = "The status of the Elevator with the id number #" + e.Id + " have been changed to " + e.status;
-            return Content(status.ToString(), "application/json");
+            return Content(e.status);
         }
     }
 }
