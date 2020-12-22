@@ -9,15 +9,15 @@ namespace REST_API.Models
         public long column_id { get; set; }
 
         public string serial_number { get; set; }
-        public string elevator_model { get; set; }
-        public string elevator_type { get; set; }
-        public string elevator_status { get; set; }
-        public string certificate_of_inspection { get; set; }
+        public string model { get; set; }
+        public string type_of_building { get; set; }
+        public string status { get; set; }
+        public string inspection_certificate { get; set; }
         public string information { get; set; }
         public string notes { get; set; }
 
-        public DateTime? date_of_commissioning { get; set; }
-        public DateTime? date_of_last_inspection { get; set; }
+        public DateTime? commissioning_date { get; set; }
+        public DateTime? last_inspection_date { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
     }

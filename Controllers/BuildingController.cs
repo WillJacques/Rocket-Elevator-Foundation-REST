@@ -47,7 +47,7 @@ namespace REST_API.Controllers
             // Add elevators with an intervention status in the list
             foreach (var elevator in list_el)
             {
-                if (elevator.elevator_status == "Intervention")
+                if (elevator.status == "Intervention")
                 {
                     intervention_elevator.Add(elevator);
                 }

@@ -41,7 +41,7 @@ namespace REST_API.Controllers
             // Add elevators in the list if they don't have an ACTIVE status
             foreach (var elevator in list)
             {
-                if (elevator.elevator_status != "ACTIVE")
+                if (elevator.status != "ACTIVE")
                 {
                     inactive_elevator_list.Add(elevator);
                 }
@@ -73,7 +73,7 @@ namespace REST_API.Controllers
             // Add elevators in the list if they don't have an ACTIVE status
             foreach (var elevator in list)
             {
-                if (elevator.elevator_status != "ACTIVE")
+                if (elevator.status != "ACTIVE")
                 {
                     inactive_elevator_list.Add(elevator);
                 }
@@ -97,7 +97,7 @@ namespace REST_API.Controllers
             }
             // Create a message to show the new status
             var status = new JObject();
-            status["status"] = elevator.elevator_status;
+            status["status"] = elevator.status;
             return Content(status.ToString(), "application/json");
         }
 
@@ -132,14 +132,14 @@ namespace REST_API.Controllers
                 return NotFound();
             }
 
-            e.elevator_status = elevator.elevator_status;
+            e.status = elevator.status;
 
             _context.elevators.Update(e);
             _context.SaveChanges();
 
             // Create a message to show the new status
             var status = new JObject();
-            status["message"] = "The status of the Elevator with the id number #" + e.Id + " have been changed to " + e.elevator_status;
+            status["message"] = "The status of the Elevator with the id number #" + e.Id + " have been changed to " + e.status;
             return Content(status.ToString(), "application/json");
         }
     }
